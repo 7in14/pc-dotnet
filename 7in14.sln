@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7in14", "7in14\7in14.csproj", "{0C2AF079-81D8-423D-B2E0-6399E70B77C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7in14", "7in14\7in14.csproj", "{0C2AF079-81D8-423D-B2E0-6399E70B77C3}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6824225D-F990-4C3E-B8F5-ECA351D8F023}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{9EF57791-1006-4A2F-B145-CDE11714F280}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,6 @@ Global
 		{0C2AF079-81D8-423D-B2E0-6399E70B77C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C2AF079-81D8-423D-B2E0-6399E70B77C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C2AF079-81D8-423D-B2E0-6399E70B77C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6824225D-F990-4C3E-B8F5-ECA351D8F023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6824225D-F990-4C3E-B8F5-ECA351D8F023}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6824225D-F990-4C3E-B8F5-ECA351D8F023}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6824225D-F990-4C3E-B8F5-ECA351D8F023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
