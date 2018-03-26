@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  7in14:
-    image: 7in14
-    build:
-      context: .
-      dockerfile: 7in14\Dockerfile
