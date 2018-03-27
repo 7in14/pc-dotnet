@@ -2,7 +2,7 @@
 mono: none
 dotnet: 2.0.0
 install:
- - dotnet add package Codecov --version 1.0.3
+ - dotnet add 7in14.Tests/7in14.Tests.csproj package Codecov
 script:
  - dotnet restore 7in14.sln
  - dotnet test 7in14.Tests/7in14.Tests.csproj
