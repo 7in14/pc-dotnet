@@ -9,7 +9,7 @@ namespace _7in14.Controllers
         [HttpGet]
         public string Get()
         {
-            return "ponger";
+            return "pong";
         }
     }
 }
