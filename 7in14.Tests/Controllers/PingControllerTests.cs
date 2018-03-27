@@ -6,8 +6,8 @@ namespace _7in14.Tests.Controllers
 {
     public class PingControllerTests
     {
-        [Fact]
-        public void Ping_ReturnsPong()
+        [Fact, Trait("Category", "Unit")]
+        public void Get_ReturnsPong()
         {
             // given
             var controller = new PingController();

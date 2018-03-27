@@ -5,7 +5,7 @@ namespace _7in14.Controllers
     [Route("api/[controller]")]
     public class PingController
     {
-        // GET api/values
+        // GET api/ping
         [HttpGet]
         public string Get()
         {

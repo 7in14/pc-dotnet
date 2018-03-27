@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7in14.Tests", "7in14.Tests\7in14.Tests.csproj", "{F871923C-CB82-46AD-ACD2-48DA9A8FB4C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7in14.Tests", "7in14.Tests\7in14.Tests.csproj", "{F871923C-CB82-46AD-ACD2-48DA9A8FB4C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
