@@ -1,5 +1,7 @@
 ﻿language: csharp
 mono: none
 dotnet: 2.0.0
+before_build:
+ - choco install codecov
 script:
  - dotnet restore 7in14.sln
