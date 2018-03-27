@@ -1,9 +1,7 @@
 ﻿language: csharp
 mono: none
 dotnet: 2.0.0
-install:
- - dotnet add 7in14.Tests/7in14.Tests.csproj package Codecov
 script:
  - dotnet restore 7in14.sln
- - dotnet test 7in14.Tests/7in14.Tests.csproj
- - codecov -f 7in14.Tests/coverage.json
+ - dotnet test 7in14.Tests/7in14.Tests.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info
+#  - codecov -f 7in14.Tests/coverage.json
