@@ -4,4 +4,5 @@ dotnet: 2.0.0
 script:
  - dotnet restore 7in14.sln
  - dotnet test 7in14.Tests/7in14.Tests.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info
-#  - codecov -f 7in14.Tests/coverage.json
+after_success:
+ - bash <(curl -s https://codecov.io/bash)
