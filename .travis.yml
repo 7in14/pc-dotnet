@@ -1,6 +1,9 @@
 ﻿language: csharp
 mono: none
 dotnet: 2.0.0
+install:
+ - dotnet add package Codecov --version 1.0.3
 script:
  - dotnet restore 7in14.sln
  - dotnet test 7in14.Tests/7in14.Tests.csproj
+ - codecov -f 7in14.Tests/coverage.json
